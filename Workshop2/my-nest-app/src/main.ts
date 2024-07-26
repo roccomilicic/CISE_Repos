@@ -7,5 +7,6 @@ async function bootstrap() {
   dotenv.config();
   const PORT = process.env.PORT || 5000;
   await app.listen(PORT);
+
 }
 bootstrap();
