@@ -12,7 +12,7 @@ jobs:
     defaults:
             run:
                 shell: bash
-                working-directory: ./worksheet2/my-react-app
+                working-directory: ./Workshop2/my-react-app
     
     strategy:
       matrix:
