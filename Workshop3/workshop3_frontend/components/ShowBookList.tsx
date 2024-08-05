@@ -5,7 +5,7 @@ import { Book } from './Book';
 function ShowBookList() {
     const [books, setBooks] = useState<[Book?]>([]);
     useEffect(() => {
-        fetch('http://localhost:8082/api/books')
+        fetch("process.env.NEXT_PUBLIC_BACKEND_URL + `/api/books/${id}`")
             .then((res) => {
                 return res.json();
             })
