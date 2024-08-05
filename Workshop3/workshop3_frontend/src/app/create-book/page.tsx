@@ -1,5 +1,5 @@
 'use client'
-import CreateBookComponent from "@/components/CreateBook";
+import CreateBookComponent from "@/src/components/CreateBook";
 export default function CreateBook() {
     return (
         <main>
